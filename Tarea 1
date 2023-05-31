@@ -1,0 +1,46 @@
+
+Qué es Git?
+Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones
+completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad
+
+Clone:
+Se utiliza principalmente para apuntar a un repositorio existente y clonar o copiar dicho repositorio en un nuevo directorio, en otra ubicación
+
+Push:
+Se usa para cargar el contenido del repositorio local a un repositorio remoto
+
+Pull:
+Se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido
+
+Commit:
+Captura una instantánea de los cambios preparados en ese momento del proyecto. Las instantáneas confirmadas pueden considerarse como versiones “seguras” de un proyecto
+
+Branch:
+Permite crear, enumerar y eliminar ramas, así como cambiar su nombre. No te permite cambiar entre ramas o volver a unir un historial bifurcado
+
+Checkout:
+Permite desplazarte entre las ramas creadas por git branch
+
+Init: 
+Es un comando que se utiliza una sola vez durante la configuración inicial de un repositorio nuevo
+
+Add:
+Mueve los cambios del directorio de trabajo al área del entorno de ensayo. Así puedes preparar una instantánea antes de confirmar en el historial oficial.
+
+Status:
+Muestra el estado del directorio de trabajo y el área del entorno de ensayo
+
+Rama de git:
+Es una herramienta de administración de ramas de uso general. Permite crear entornos de desarrollo aislados en un solo repositorio
+
+Clean:
+Elimina los archivos sin seguimiento de tu directorio de trabajo. Es la contraparte lógica de git reset, que normalmente solo funciona en archivos con seguimiento.
+
+Config:
+Establece las opciones de configuración para instalar Git. Normalmente, solo es necesario usarlo inmediatamente después de instalar Git en un nuevo equipo de desarrollo.
+
+Fetch:
+Descarga una rama de otro repositorio junto con todas sus confirmaciones y archivos asociados. Sin embargo, no intenta integrar nada en el repositorio local
+
+Log:
+Permite explorar las revisiones anteriores de un proyecto. Proporciona varias opciones de formato para mostrar las instantáneas confirmadas.
